@@ -1,4 +1,5 @@
 import React from "react";
+import { MdOutlineLightMode } from "react-icons/md";
 const liStyle =
   "hover:cursor-pointer hover:underline underline-offset-4 transition ";
 function Navbar() {
@@ -17,7 +18,9 @@ function Navbar() {
           </ul>
         </div>
 
-        <div>icon</div>
+        <div>
+          <MdOutlineLightMode />
+        </div>
         <div>
           <button className="bg-white text-primary pt-2 pb-2 pl-3 pr-3 rounded text-[0.9rem] border border-primary hover:border-white hover:bg-primary hover:text-white">
             Download Cv
